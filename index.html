@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>个人网站</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="css/index201705.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    [endif]-->
+
+</head>
+<body>
+<div id="loading">
+    <div id="loading-img">
+        <img src="images/status.gif">
+    </div>
+</div>
+<div id="fullpage">
+    <nav class="navbar navbar-inverse navbar-fixed-top header">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="glyphicon glyphicon-qrcode" style="color: #fff"></i></a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navmenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="navmenu" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav text-center">
+                    <li class="l1"><a href="#1">HOME</a> </li>
+                    <li class="l2"><a href="#2">About Me</a></li>
+                    <li class="l3"><a href="#3">Skills</a></li>
+                    <li class="l4"><a href="#4">Project</a></li>
+                    <li class="l5"><a href="#5">Work</a></li>
+                    <li class="l6"><a href="#6">Experience</a></li>
+                    <li class="l7"><a href="#7">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="section s-1">
+                <div class="col-xs-12 intro-box text-center">
+                        <h1 class="welcome">Welcome to My Website</h1>
+                        <h1 id="time"></h1>
+                        <div class="btn-box">
+                            <a href="#7"><div class="btn-welcome">Contact me</div></a>
+                            <a href="#4"><div class="btn-welcome" href="#">Project</div></a>
+                        </div>
+                </div>
+    </div>
+    <div class="section s-2">
+        <div class="st-title">
+            <h2 class="text-center">About Me</h2>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="tx"></div>
+            <div class="about-txt">
+                <p style="text-indent: 50px;">大家好，我是Jame，热爱编程的小菜鸟，方向发展是前端交互、移动开发。致力成为<strong>全盏工程师！</strong>
+                    目前从事开发和维护相关工作。您可以在这里看到关于我的一些履历和作品。网站还在持续搭建中，期待大神们的宝贵意见。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section s-3">
+        <div class="st-title">
+            <h2 class="text-center">My Skills</h2>
+            <hr>
+        </div>
+        <div class="slide">
+            <div class="container">
+
+                    <div class="col-sm-4 skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/html5.png"></div>
+                                <h3>HTML5</h3>
+                                <p>就这个网页的水平</p>
+                                <p>canvas 还在学</p>
+                                <p>（说不定能开发游戏呢）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/L-ps.png"></div>
+                                <h3>PhotoShop</h3>
+                                <p>切图、抠图、优化图像这些还是会的</p>
+                                <p>要我设计创作的话，臣妾真的做不到</p>
+                                <p>（其实我还是一个摄影爱好者）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/jq.png"></div>
+                                <h3>JQuery</h3>
+                                <p>熟练使用JQuery 里各种api</p>
+                                <p>运用JQuery熟练操作DOM</p>
+                                <p>会写一些小插件</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+
+                    <div class="col-sm-4 skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/bootstrap.png"></div>
+                                <h3>Bootstrap</h3>
+                                <p>精通栅格布局、各种组件及插件使用</p>
+                                <p>能定制个性化bootstrap项目</p>
+                                <p>使用bootstrap快速开发移动端或PC端项目</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/angular-logo.png"></div>
+                                <h3>Angular</h3>
+                                <p>有意向学习</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/vue.png"></div>
+                                <h3>Vue</h3>
+                                <p>学习中，敬请期待~</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+
+                    <div class="col-sm-4 skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/SQL2.png"></div>
+                                <h3>SQL</h3>
+                                <p>熟练编写SQL语句进行数据库操作</p>
+                                <p>...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/js.png"></div>
+                                <h3>JavaScript</h3>
+                                <p>可以写原生JS</p>
+                                <p>熟练使用js操作dom，了解js中内存运作、闭包等原理</p>
+                                <p>持续学习中...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 hidden-xs skill-box">
+                        <div class="thumbnail">
+                            <img src="images/c04.jpg" />
+                            <div class="caption">
+                                <div class="skill-logo"><img src="images/weix.png"></div>
+                                <h3>微信相关开发</h3>
+                                <p>学习中，敬请期待~</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- slide by xs -->
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/L-ps.png"></div>
+                        <h3>PhotoShop</h3>
+                        <p>切图、抠图、优化图像</p>
+                        <p>要我设计创作的话，臣妾真的做不到</p>
+                        <p>（其实我还是一个摄影爱好者）</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/jq.png"></div>
+                        <h3>JQuery</h3>
+                        <p>熟练使用JQuery 里各种api</p>
+                        <p>运用JQuery熟练操作DOM</p>
+                        <p>会写一些小插件</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/angular-logo.png"></div>
+                        <h3>Angular</h3>
+                        <p>有意向学习</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/vue.png"></div>
+                        <h3>Vue</h3>
+                        <p>学习中，敬请期待~</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/js.png"></div>
+                        <h3>JavaScript</h3>
+                        <p>可以写原生JS</p>
+                        <p>熟练使用js操作dom，了解js中内存运作、闭包等原理</p>
+                        <p>持续学习中...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hid-slide">
+            <div class="col-sm-4 skill-box">
+                <div class="thumbnail">
+                    <img src="images/c04.jpg" />
+                    <div class="caption">
+                        <div class="skill-logo"><img src="images/weix.png"></div>
+                        <h3>微信相关开发</h3>
+                        <p>学习中，敬请期待~</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section s-4">
+        <div class="st-title">
+            <h2 class="text-center">My Projects</h2>
+            <hr>
+        </div>
+
+        <!--<div class="project-btnbox">-->
+            <!--<div class="project-btn">全部</div>-->
+            <!--<div class="project-btn">前端</div>-->
+            <!--<div class="project-btn">移动端</div>-->
+            <!--<div class="project-btn">微信</div>-->
+        <!--</div>-->
+        <div class="container">
+            <div class="col-xs-12 col-sm-3 project p01">
+                <a href="#">
+                    <div class="project-overlay">
+                        <div class="project-text text-center">
+                            <h3>技术笔记</h3>
+                            <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                            <p>记录常用插件实例演示及.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p02">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>作品库</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>作品展示.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p03">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p04">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p05">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p06">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p07">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 project p08">
+                <div class="project-overlay">
+                    <div class="project-text text-center">
+                        <h3>预留备用</h3>
+                        <div class="hid-box"><span class="glyphicon glyphicon-search"></span></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-5">
+        <div class="st-title">
+            <h2 class="text-center">My WORK</h2>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="work-box">
+                        <div class="work-img p1"></div>
+                        <div class="work-title text-center"><h3>系统管理</h3></div>
+                        <hr>
+                        <div class="work-text">
+                            <p>1、OA系统：包括日常维护、流程搭建、js脚本编写、数据库和服务器维护、制作报表（SQL）</p>
+                            <p>2、AD （Active Directory）域：制定组策略，部署域控，日常维护。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work-box">
+                        <div class="work-img p2"></div>
+                        <div class="work-title text-center"><h3>程序开发</h3></div>
+                        <hr>
+                        <div class="work-text">
+                            <p>1、Web程序开发：（内部满意度调查系统、客户邮箱地址管理平台、通讯录管理平台...）</p>
+                            <p>2、网页重构：利用booststrap重构内网</p>
+                            <p>3、移动端开发：客户满意度调查（响应式）、员工指南移动端（响应式）</p>
+                            <p class="text-right">部分程序实例会在<a href="#4" style="color: #fff;"><kbd>project</kbd></a>中展示</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="work-box">
+                        <div class="work-img p3"></div>
+                        <div class="work-title text-center"><h3>维护</h3></div>
+                        <hr>
+                        <div class="work-text">
+                            <p>1、维护：电脑软硬件维护、网络维护</p>
+                            <p>2、网络：参与区域公司VPN搭建</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-6">
+        <div class="st-title">
+                <h2>EXPERIENCE</h2>
+                <hr>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="time-line">
+                        <li>
+                            <div class="time-text-left">
+                                <div class="time-text-title">
+                                    <h4 class="text-success">毕业季</h4>
+                                    <h4 class="c5">Graduation</h4>
+                                </div>
+                                <div class="time-text-body">
+                                    <p>毕业于广州大学华软软件学院，毕业后参加DBA培训并考取OCP、OCA证书</p>
+                                </div>
+                            </div>
+                            <div class="time-img text-center">
+                                <h3>2012</h3>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="time-text-right">
+                                <div class="time-text-title">
+                                    <h4 class="text-success">初入职场</h4>
+                                    <h4 class="c5">Beginning</h4>
+                                </div>
+                                <div class="time-text-body">
+                                    <p>进入某国企公司从事维护开发工作</p>
+                                </div>
+                            </div>
+                            <div class="time-img text-center">
+                                <h3>2013</h3>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="time-text-left">
+                                <div class="time-text-title">
+                                    <h4 class="text-success">转折点</h4>
+                                    <h4 class="c5">Change</h4>
+                                </div>
+                                <div class="time-text-body">
+                                    <p>在一次偶然的机会接触到前端这一块，感觉兴趣还是挺大的（主要原因是因为之前写的网页太丑了:)），于是开始转行专攻前端方向。</p>
+                                </div>
+                            </div>
+                            <div class="time-img text-center">
+                                <h3>2015</h3>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="time-text-right">
+                                <div class="time-text-title">
+                                    <h4 class="text-success">前端菜鸟</h4>
+                                    <h4 class="c5">New World</h4>
+                                </div>
+                                <div class="time-text-body">
+                                    <p>经过两年多学习和实践，目前已经可以独立开发部署项目，掌握多种前端框架，熟练开发移动端页面（下半年主要研究vue和小程序）</p>
+                                </div>
+                            </div>
+                            <div class="time-img text-center">
+                                <h3>2017</h3>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="time-text-left">
+                                <div class="time-text-title">
+                                    <h4 class="text-success">结语</h4>
+                                    <h4 class="c5">Ending or Beginning</h4>
+                                </div>
+                                <div class="time-text-body">
+                                        <p>学习编程就像逆水行舟，不进则退。而兴趣是最好的老师，是动力的源泉。我相信人的潜力是无限的，前端只是开始，全盏才是我的目标！</p>
+                                </div>
+                            </div>
+                            <div class="time-img text-center">
+                                <h3>END</h3>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-2">
+        <div class="st-title">
+            <h2 class="text-center">CONTACT ME</h2>
+            <hr>
+        </div>
+
+        <div class="container contact">
+            <div class="row"><p></p></div>
+            <div class="row text-center">
+                <div id="map-click" class="col-sm-4 information-box" data-toggle="modal" data-target=".modal-map">
+                    <a href="map2.html">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <p>广州市越秀区德政北路达信大厦21楼</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 information-box">
+                    <span class="glyphicon glyphicon-phone"></span>
+                    <p>***********</p>
+                </div>
+                <div class="col-sm-4 information-box">
+                  <a href="mailto:241782439@qq.com">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                    <p>241782439@qq.com</p>
+                  </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mg-top"><input id="name" class="form-control" placeholder="姓名/称呼" /></div>
+                <div class="col-sm-6 mg-top"><input id="contact" class="form-control" placeholder="电话/邮箱/联系方式" /></div>
+            </div>
+            <div class="row mg-top">
+                <div class="col-sm-12">
+                    <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row text-center mg-top">
+                <div class="col-sm-12">
+                    <button id="submit" class="btn btn-lg btn-commit">提交</button>
+                </div>
+            </div>
+
+            <div class="row text-center mg-top">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="down-box">
+            <span>
+                <i class="glyphicon glyphicon-menu-down"></i>
+            </span>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-titile"></h3>
+            </div>
+
+            <div class="modal-body">
+                <div class="wxqr"></div>
+                <h4 class="text-center">微信</h4>
+            </div>
+
+            <!--<div class="modal-footer">-->
+                <!--<button class="btn btn-primary" type="button" data-dismiss="modal">取消</button>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/jquery.fullpage.min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.min.js" type="text/javascript"></script>
+<script src="js/jquery.slimscroll.js" type="text/javascript"></script>
+<script src="js/index201705.js" type="text/javascript"></script>
+<!--<script>-->
+        <!--(function(){-->
+            <!--var s =document.createElement("script");-->
+            <!--s.onload = function (){-->
+                <!--bootlint.showLintReportForCurrentDocument([]);-->
+            <!--};-->
+            <!--s.src = "js/bootlint.js";-->
+            <!--document.body.appendChild(s)-->
+        <!--})();-->
+<!--</script>-->
+
+</body>
+</html>

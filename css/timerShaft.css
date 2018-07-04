@@ -1,0 +1,163 @@
+
+.timerShaft {
+    padding: 70px 0;
+}
+
+.circle-box {
+    margin: 30px auto;
+    border-radius: 50%;
+    text-align: justify;
+    background-color: #fff;
+    border: 6px solid #dddddd;
+    width: 60px;
+    height: 60px;
+
+}
+
+/*.cb-sm {*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+
+/*}*/
+
+
+
+.hideText {
+    position: absolute;
+    display: none;
+    width: 220px;
+    top: 60px;
+    left: 50%;
+    margin-left: -110px;
+
+}
+
+.axis {
+    position: absolute;
+    background-color: #ddd;
+    width: 10px;
+    height: 100%;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.l-right .lead-box {
+    display: table;
+    position: absolute;
+    width: 500px;
+    top: -25px;
+    left: 12px;
+}
+
+.l-left .lead-box {
+    display: table;
+    position: absolute;
+    width: 500px;
+    top: -25px;
+    right: -19px;
+}
+
+.l-right .l-line-box {
+    display: inline-block;
+    background-color: #fff;
+    padding: 2px 0;
+}
+
+.l-right .l-header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.l-right .l-line {
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    height: 12px;
+    margin-left: -12px;
+    border-radius: 10px;
+}
+
+
+.l-left .l-line-box {
+    display: inline-block;
+    background-color: #fff;
+    padding: 2px 0;
+}
+
+.l-left .l-header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.l-left .l-line {
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    height: 12px;
+    margin-right: -12px;
+    border-radius: 10px;
+}
+
+.l-left .l-pic,.l-right .l-pic {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+}
+
+.l-left .l-pic,.l-right .l-pic .pic01,.pic02,.pic03,.pic04,.pic05,.pic06{
+    font-size: 80px;
+    text-shadow: 2px 2px 5px #c4c4c4;
+}
+.pic01 {
+    color: #2ECC71;
+}
+.pic02 {
+    color: #3498DB;
+}
+.pic03 {
+    color: #e47c76;
+}
+.pic04 {
+    color: #9B59B6;
+}
+.pic05 {
+    color: #F1C40F;
+}
+.pic06 {
+    color: #e8654e;
+}
+
+.c1 {background-color: #e47c76}
+.c2 {background-color: #e8654e}
+.c3 {background-color: #F1C40F}
+.c4 {background-color: #9B59B6}
+.c5 {background-color: #2ECC71}
+.c6 {background-color: #1ABC9C}
+.c7 {background-color: #3498DB}
+.c8 {background-color: #34495E}
+
+@media (max-width: 768px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .l-left .l-line,.l-right .l-line {
+        width: 60px;
+    }
+
+    .l-right .lead-box,.l-left .lead-box {
+        width: 184px;
+    }
+
+    .l-left .lead-box {
+        right: 9px;
+    }
+}
